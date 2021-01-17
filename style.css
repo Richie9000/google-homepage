@@ -1,7 +1,41 @@
-.Logo {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
+.logo-img {
+    display: grid;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    margin-top: -50px;
+    margin-left: -100px;
+
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+}
+.searchBar {
+    display: grid;
+    width: 25%;
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    margin-top: -50px;
+    margin-left: -100px; 
+    
+}
+.searchButton {
+    display: grid;
+    position: fixed;
+    top: 81%;
+    left: 55%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+.feelinglucky{
+    display: grid;
+    position: fixed;
+    top: 81%;
+    left: 67%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+    
