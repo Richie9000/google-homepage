@@ -1,50 +1,61 @@
 .logo-img {
-    display: grid;
-    position: fixed;
-    top: 50%;
-    left: 55%;
-    margin-top: -50px;
-    margin-left: -100px;
-
+  display: grid;
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 .searchBar {
-    display: grid;
-    width: 25%;
-    position: absolute;
-    top: 75%;
-    left: 55%;
-    margin-top: -50px;
-    margin-left: -100px; 
-    
+  display: grid;
+  width: 25%;
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 .searchButton {
-    display: grid;
-    position: fixed;
-    top: 81%;
-    left: 55%;
-    margin-top: -50px;
-    margin-left: -100px;
+  display: grid;
+  position: fixed;
+  top: 81%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
-.feelinglucky{
-    display: grid;
-    position: fixed;
-    top: 81%;
-    left: 67%;
-    margin-top: -50px;
-    margin-left: -100px;
+.feelinglucky {
+  display: grid;
+  position: fixed;
+  top: 81%;
+  left: 67%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
-    
+
 #search-button {
-    width: 100px;
-    height: 50px;
-  }
-      
-  #search-button svg {
-    width: 25px;
-    height: 25px;
-  }
+  width: 100px;
+  height: 50px;
+}
+
+#search-button svg {
+  width: 25px;
+  height: 25px;
+}
+.navbar {
+  display: inline;
+  list-style-type: none;
+}
+.table {
+  margin: 0 auto;
+}
+ul#horizontal-list {
+  min-width: 333px;
+}
+ul#horizontal-list li {
+  display: inline;
+}
